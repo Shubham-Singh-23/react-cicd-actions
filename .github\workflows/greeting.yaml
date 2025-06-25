@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "greet user"
-              run: echo "Hello Diksha"
+              run: echo "Hello Dost ka hall hai"
            
 
        
