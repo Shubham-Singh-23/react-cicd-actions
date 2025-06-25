@@ -1,11 +1,8 @@
-name: Deploy Dist
-on: [push, wrokflow_dispatch]
+name: Greeting
+on: push
 jobs:
-    test:
+    greet:
         runs-on: ubuntu-latest
         steps:
-            - name: Get code
-              run: |
-                echo "cloning repo.."
-                echo "${{toJson(github)}}"
-                git clone https://github.com/${{github.repository}}.git
+            - name: "greet user"
+              run: echo "Hello Diksha"
